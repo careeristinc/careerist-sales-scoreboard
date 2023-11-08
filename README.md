@@ -8,8 +8,8 @@ const scoreboardScriptUrl = 'https://cdn.jsdelivr.net/gh/careeristinc/careerist-
 const scoreboardCssUrl = 'https://raw.githubusercontent.com/careeristinc/careerist-sales-scoreboard/main/scoreboard.css';
 const scoreboardHtmlUrl = 'https://raw.githubusercontent.com/careeristinc/careerist-sales-scoreboard/main/scoreboard.html';
 const scoreboardParams = {
-  param1: 'testParam1',
-  param2: 'testParam2'
+  url: 'https://...',
+  advisor: '...'
 };
 
 if (!window[injectionMarker]) {
@@ -32,7 +32,7 @@ if (!window[injectionMarker]) {
       injectedScript.src = URL.createObjectURL(injectedBlob);
       injectedScript.onload = () => {
         if (typeof scoreboard === 'function') {
-          scoreboard(scoreboardParams.param1, scoreboardParams.param2);
+          scoreboard(scoreboardParams.url, scoreboardParams.advisor);
         } else {
           console.error('scoreboard function is not defined');
         }
