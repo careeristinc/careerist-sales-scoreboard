@@ -1,3 +1,3 @@
-let scoreboard = function (url, adviser) {
+function scoreboard(url, adviser) {
   console.log('careerist-sales-scoreboard is loaded')
 }
