@@ -1,0 +1,62 @@
+{   
+    "advisor" : {
+        "name" : "Jeremiah Howell",
+        "now" : "4/12",
+        "last" : "6/10"
+    },
+    "team" : {
+        "name" : "Nikolas's team",
+        "now" : "+17%",
+        "last" : "-3%"
+    },
+    "now": {
+      "name": "November",
+      "topByQty": {
+        "header": ["", "Advisor", "Team", "Qty of new", "Total", "Avg"],
+        "list": [
+          [1, "Jeremiah Howell", "John's team", "30", "$13,200", "$440"],
+          [2, "Jillian Johnson", "John's team", "27", "$69,687", "$2,581"],
+          [3, "Beth Guzman", "Nikolas's team", "26", "$76,674", "$2,949"],
+          [4, "Jennifer Calhoun", "Nikolas's team", "21", "$66,339", "$3,159"],
+          [5, "Richard Villanueva", "Nikolas's team", "20", "$83,640", "$4,182"],
+          [6, "Brandon Yoder", "Nikolas's team", "19", "$34,409", "$1,811"]
+        ]
+      },
+      "payments": {
+        "header": ["Date", "Time", "Product", "Sales Manager", "Payment Type", "Payment System", "Amount"],
+        "list": [
+          ["2023-11-07", "09:36", "TS", "Beth Guzman", "Initial", "Climb", "$3,278"],
+          ["2023-11-06", "20:08", "QAA", "Jillian Johnson", "Additional", "Split", "$798"],
+          ["2023-11-06", "17:34", "QAA", "Richard Villanueva", "Additional", "DPP", "$4,370"],
+          ["2023-11-06", "16:35", "QAA", "Jillian Johnson", "Initial", "Upfront", "$1,522"],
+          ["2023-11-06", "11:08", "QAA", "Richard Villanueva", "Initial", "Climb", "$3,299"],
+          ["2023-11-05", "19:22", "MQA", "Beth Guzman", "Initial", "Upfront", "$1,517"]
+        ]
+      }
+    },
+    "last": {
+      "name": "October",
+      "topByQty": {
+        "header": ["", "Advisor", "Team", "Qty of new", "Total", "Avg"],
+        "list": [
+          [1, "Krista Cabrera", "Nikolas's team", "21", "$58,632", "$2,792"],
+          [2, "Adriana Bender", "Nikolas's team", "20", "$10,540", "$527"],
+          [3, "Stephanie Miranda", "Nikolas's team", "20", "$20,360", "$1,018"],
+          [4, "Derek Cole", "John's team", "20", "$41,400", "$2,070"],
+          [5, "Tiffany Rojas", "Nikolas's team", "15", "$56,910", "$3,794"],
+          [6, "Bianca Smith", "Nikolas's team", "4", "$12,048", "$3,012"]
+        ]
+      },
+      "payments": {
+        "header": ["Date", "Time", "Product", "Sales Manager", "Payment Type", "Payment System", "Amount"],
+        "list": [
+          ["2023-10-07", "19:53", "TS", "Derek Cole", "Additional", "Split", "$3,569"],
+          ["2023-10-06", "15:30", "MQA", "Stephanie Miranda", "Additional", "DPP", "$2,924"],
+          ["2023-10-05", "13:02", "MQA", "Bianca Smith", "Initial", "DPP", "$3,860"],
+          ["2023-10-04", "05:11", "MQA", "Derek Cole", "Additional", "DPP", "$991"],
+          ["2023-10-03", "17:50", "MQA", "Tiffany Rojas", "Additional", "DPP", "$2,781"],
+          ["2023-10-03", "07:56", "MQA", "Derek Cole", "Initial", "Split", "$4,357"]
+        ]
+      }
+    }
+  }
