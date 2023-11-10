@@ -1,10 +1,43 @@
 <div class="crstScore">
-  <div class="crstScore__sidebar"></div>
-  <div class="crstScore__window">
-    <div class="crstScore__window__in">
-      <div class="crstScore__window__content"></div>
-      <div class="crstScore__window__close">Close</div>
+  <div class="crstScore-sidebar">
+    <div class="crstScore-score js-toggle-window">
+      <div class="crstScore-score__title">Score</div>
+      <div class="crstScore-score__info">
+        <div class="crstScore-score__item">
+          <div class="crstScore-score__label">Personal</div>
+          <div class="crstScore-score__value js-score-personal"></div>
+        </div>
+
+        <div class="crstScore-score__item">
+          <div class="crstScore-score__label">Team</div>
+          <div class="crstScore-score__value js-score-team"></div>
+        </div>
+      </div>
     </div>
-    <div class="crstScore__window__shadow"></div>
+  </div>
+
+  <div class="crstScore-window">
+    <div class="crstScore-window__in">
+
+      <div class="crstScore-window__actions">
+        <div class="crstScore-tabs"></div>
+      </div>
+
+      <div class="crstScore-window__sticky">
+        <div class="table-head"></div>
+      </div>
+
+      <div class="crstScore-window__content">
+
+        <div class="table-content"></div>
+
+      </div>
+
+      <div class="crstScore-window__close js-toggle-window">Close</div>
+    </div>
   </div>
 </div>
+
+<script>
+  scoreboard(scoreboardParams.url, scoreboardParams.advisor);
+</script>

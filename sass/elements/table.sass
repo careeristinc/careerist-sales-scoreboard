@@ -1,0 +1,153 @@
+$column-gap: 16px
+
+.--first
+  min-width: 24px
+
+.--advisor-team,
+.--date-time
+  flex-grow: 1
+
+
+// Leader
+.--quantityOfNew
+  min-width: 15%
+
+.--total
+  min-width: 18%
+
+.--average
+  min-width: 17%
+
+// Payment
+.--product
+  min-width: 15%
+  max-width: 10%
+
+.--salesManager
+  min-width: 15%
+  max-width: 15%
+
+.--paymentType
+  min-width: 10%
+  max-width: 10%
+
+.--paymentSystem
+  min-width: 10%
+  max-width: 10%
+
+.--amount
+  min-width: 10%
+  max-width: 10%
+
+
+.table-head
+  display: flex
+  align-items: center
+  gap: $column-gap
+
+  min-height: 30px
+  padding: 0 $column-gap
+
+  font-weight: 600
+  font-size: 11px
+  line-height: 100%
+  color: rgba($white, 0.5)
+
+.table-content
+  $table: &
+
+  &__row
+    position: relative
+
+    display: flex
+    align-items: center
+    gap: $column-gap
+
+    min-height: 48px
+    padding: 0 $column-gap
+
+    background-color: rgba($white, 0.01)
+
+    +transition
+
+    &:hover
+      background-color: rgba($white, 0.04)
+
+    &:not(:last-child)
+      margin-bottom: 1px
+
+    &.is-current
+      &::before
+        content: ' '
+
+        position: absolute
+        top: 2px
+        right: 5px
+        bottom: 2px
+        left: 5px
+
+        border: 2px solid rgba($white, 0.1)
+
+        border-radius: 8px
+        background-color: rgba($white, 0.05)
+
+        pointer-events: none
+
+    &:nth-child(1)
+      #{$table}__number
+        background-image: url('images/badge-gold.png')
+
+    &:nth-child(2)
+      #{$table}__number
+        background-image: url('images/badge-silver.png')
+
+    &:nth-child(3)
+      #{$table}__number
+        background-image: url('images/badge-bronze.png')
+
+  &__col
+    font-weight: 600
+    font-size: 14px
+    +ellipsis
+
+  &__plus
+    width: 22px
+    height: 22px
+
+    background: url('images/plus-green.png') center center no-repeat
+    background-size: 100% 100%
+
+    text-indent: -9999px
+
+  &__number
+    display: flex
+    justify-content: center
+    align-items: center
+
+    min-width: 24px
+    height: 24px
+
+    background-position: center center
+    background-repeat: no-repeat
+    background-size: cover
+
+    font-weight: 600
+    font-size: 18px
+    line-height: 100%
+
+  &__title
+    max-width: 100%
+
+    font-weight: 600
+    font-size: 16px
+    line-height: 20px
+    +ellipsis
+
+  &__subtitle
+    max-width: 100%
+
+    font-weight: 600
+    font-size: 11px
+    line-height: 16px
+    color: rgba($white, 0.5)
+    +ellipsis
