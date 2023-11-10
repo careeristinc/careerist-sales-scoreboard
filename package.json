@@ -1,0 +1,18 @@
+{
+  "name": "careerist-sales-scoreboard",
+  "version": "1.0.0",
+  "description": "Injection ```javascript const injectionMarker = 'careerist-sales-extension-injected'; const jqueryUrl = 'https://code.jquery.com/jquery-3.7.1.min.js'; const scoreboardScriptUrl = 'https://cdn.jsdelivr.net/gh/careeristinc/careerist-sales-scoreboard/scoreboard.js'; const scoreboardCssUrl = 'https://raw.githubusercontent.com/careeristinc/careerist-sales-scoreboard/main/scoreboard.css'; const scoreboardHtmlUrl = 'https://raw.githubusercontent.com/careeristinc/careerist-sales-scoreboard/main/scoreboard.html'; const scoreboardParams = {   url: 'https://...',   advisor: '...' };",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.69.5"
+  }
+}

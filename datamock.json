@@ -1,62 +1,247 @@
-{   
-    "advisor" : {
-        "name" : "Jeremiah Howell",
-        "now" : "4/12",
-        "last" : "6/10"
+{
+  "isSalesLeaderboardEnabled": true,
+  "salesperson": {
+    "id": 1,
+    "name": "John Doe",
+    "currentMonth": "4/12",
+    "lastMonth": "10/17"
+  },
+  "team": {
+    "name": "Jane's team",
+    "currentMonth": "+17%",
+    "lastMonth": "-10%"
+  },
+  "currentMonthName": "November",
+  "lastMonthName": "October",
+  "leaderboardCurrentMonth": [
+    {
+      "id": 2,
+      "advisor": "Veronica Griffin",
+      "team": "Team 5",
+      "quantityOfNew": 11,
+      "total": "$12000",
+      "average": "$541"
     },
-    "team" : {
-        "name" : "Nikolas's team",
-        "now" : "+17%",
-        "last" : "-3%"
+    {
+      "id": 3,
+      "advisor": "Justin Orr",
+      "team": "Team 2",
+      "quantityOfNew": 7,
+      "total": "$8000",
+      "average": "$822"
     },
-    "now": {
-      "name": "November",
-      "topByQty": {
-        "header": ["", "Advisor", "Team", "Qty of new", "Total", "Avg"],
-        "list": [
-          [1, "Jeremiah Howell", "John's team", "30", "$13,200", "$440"],
-          [2, "Jillian Johnson", "John's team", "27", "$69,687", "$2,581"],
-          [3, "Beth Guzman", "Nikolas's team", "26", "$76,674", "$2,949"],
-          [4, "Jennifer Calhoun", "Nikolas's team", "21", "$66,339", "$3,159"],
-          [5, "Richard Villanueva", "Nikolas's team", "20", "$83,640", "$4,182"],
-          [6, "Brandon Yoder", "Nikolas's team", "19", "$34,409", "$1,811"]
-        ]
-      },
-      "payments": {
-        "header": ["Date", "Time", "Product", "Sales Manager", "Payment Type", "Payment System", "Amount"],
-        "list": [
-          ["2023-11-07", "09:36", "TS", "Beth Guzman", "Initial", "Climb", "$3,278"],
-          ["2023-11-06", "20:08", "QAA", "Jillian Johnson", "Additional", "Split", "$798"],
-          ["2023-11-06", "17:34", "QAA", "Richard Villanueva", "Additional", "DPP", "$4,370"],
-          ["2023-11-06", "16:35", "QAA", "Jillian Johnson", "Initial", "Upfront", "$1,522"],
-          ["2023-11-06", "11:08", "QAA", "Richard Villanueva", "Initial", "Climb", "$3,299"],
-          ["2023-11-05", "19:22", "MQA", "Beth Guzman", "Initial", "Upfront", "$1,517"]
-        ]
-      }
+    {
+      "id": 1,
+      "advisor": "John Doe",
+      "team": "Team 1",
+      "quantityOfNew": 10,
+      "total": "$10,000",
+      "average": "$1,000"
     },
-    "last": {
-      "name": "October",
-      "topByQty": {
-        "header": ["", "Advisor", "Team", "Qty of new", "Total", "Avg"],
-        "list": [
-          [1, "Krista Cabrera", "Nikolas's team", "21", "$58,632", "$2,792"],
-          [2, "Adriana Bender", "Nikolas's team", "20", "$10,540", "$527"],
-          [3, "Stephanie Miranda", "Nikolas's team", "20", "$20,360", "$1,018"],
-          [4, "Derek Cole", "John's team", "20", "$41,400", "$2,070"],
-          [5, "Tiffany Rojas", "Nikolas's team", "15", "$56,910", "$3,794"],
-          [6, "Bianca Smith", "Nikolas's team", "4", "$12,048", "$3,012"]
-        ]
-      },
-      "payments": {
-        "header": ["Date", "Time", "Product", "Sales Manager", "Payment Type", "Payment System", "Amount"],
-        "list": [
-          ["2023-10-07", "19:53", "TS", "Derek Cole", "Additional", "Split", "$3,569"],
-          ["2023-10-06", "15:30", "MQA", "Stephanie Miranda", "Additional", "DPP", "$2,924"],
-          ["2023-10-05", "13:02", "MQA", "Bianca Smith", "Initial", "DPP", "$3,860"],
-          ["2023-10-04", "05:11", "MQA", "Derek Cole", "Additional", "DPP", "$991"],
-          ["2023-10-03", "17:50", "MQA", "Tiffany Rojas", "Additional", "DPP", "$2,781"],
-          ["2023-10-03", "07:56", "MQA", "Derek Cole", "Initial", "Split", "$4,357"]
-        ]
-      }
+    {
+      "id": 4,
+      "advisor": "Anthony Snyder",
+      "team": "Team 2",
+      "quantityOfNew": 12,
+      "total": "$19000",
+      "average": "$749"
+    },
+    {
+      "id": 5,
+      "advisor": "Andrew Williams",
+      "team": "Team 5",
+      "quantityOfNew": 15,
+      "total": "$20000",
+      "average": "$763"
+    },
+    {
+      "id": 6,
+      "advisor": "David Rogers",
+      "team": "Team 4",
+      "quantityOfNew": 5,
+      "total": "$13000",
+      "average": "$963"
+    },
+    {
+      "id": 7,
+      "advisor": "Russell Velasquez",
+      "team": "Team 1",
+      "quantityOfNew": 5,
+      "total": "$5000",
+      "average": "$1041"
+    },
+    {
+      "id": 8,
+      "advisor": "David Terry",
+      "team": "Team 1",
+      "quantityOfNew": 8,
+      "total": "$15000",
+      "average": "$1354"
+    },
+    {
+      "id": 9,
+      "advisor": "Mrs. Mary Porter",
+      "team": "Team 1",
+      "quantityOfNew": 8,
+      "total": "$11000",
+      "average": "$1053"
+    },
+    {
+      "id": 10,
+      "advisor": "Rebecca Chen",
+      "team": "Team 3",
+      "quantityOfNew": 6,
+      "total": "$8000",
+      "average": "$1708"
     }
-  }
+  ],
+  "leaderboardLastMonth": [
+    {
+      "id": 1,
+      "advisor": "John Doe",
+      "team": "Team 1",
+      "quantityOfNew": 10,
+      "total": "$10,000",
+      "average": "$1,000"
+    },
+    {
+      "id": 2,
+      "advisor": "Jessica Garcia",
+      "team": "Team 1",
+      "quantityOfNew": 12,
+      "total": "$19,308",
+      "average": "$1,609"
+    },
+    {
+      "id": 3,
+      "advisor": "Michael Brown",
+      "team": "Team 7",
+      "quantityOfNew": 7,
+      "total": "$12,621",
+      "average": "$1,803"
+    },
+    {
+      "id": 4,
+      "advisor": "Michael Brown",
+      "team": "Team 8",
+      "quantityOfNew": 16,
+      "total": "$26,000",
+      "average": "$1,625"
+    },
+    {
+      "id": 5,
+      "advisor": "Sarah Wilson",
+      "team": "Team 3",
+      "quantityOfNew": 9,
+      "total": "$11,097",
+      "average": "$1,233"
+    },
+    {
+      "id": 6,
+      "advisor": "John Doe",
+      "team": "Team 4",
+      "quantityOfNew": 19,
+      "total": "$25,612",
+      "average": "$1,348"
+    },
+    {
+      "id": 7,
+      "advisor": "John Doe",
+      "team": "Team 7",
+      "quantityOfNew": 10,
+      "total": "$16,650",
+      "average": "$1,665"
+    },
+    {
+      "id": 8,
+      "advisor": "Robert Davis",
+      "team": "Team 6",
+      "quantityOfNew": 18,
+      "total": "$35,316",
+      "average": "$1,962"
+    },
+    {
+      "id": 9,
+      "advisor": "Emily Carter",
+      "team": "Team 2",
+      "quantityOfNew": 8,
+      "total": "$13,904",
+      "average": "$1,738"
+    },
+    {
+      "id": 10,
+      "advisor": "Jessica Garcia",
+      "team": "Team 4",
+      "quantityOfNew": 12,
+      "total": "$13,308",
+      "average": "$1,109"
+    }
+  ],
+  "paymentsCurrentMonth": [
+    {
+      "date": "2016-11-01",
+      "time": "12:00",
+      "product": "TS",
+      "salesManager": "Jane Smith",
+      "paymentType": "initial",
+      "paymentSystem": "helcim",
+      "amount": "$1,000"
+    },
+    {
+      "date": "2016-11-15",
+      "time": "04:19",
+      "product": "BS",
+      "salesManager": "Alex Johnson",
+      "paymentType": "final",
+      "paymentSystem": "stripe",
+      "amount": "$1,500"
+    },
+    {
+      "date": "2016-11-27",
+      "time": "02:07",
+      "product": "TS",
+      "salesManager": "Lisa Davis",
+      "paymentType": "final",
+      "paymentSystem": "stripe",
+      "amount": "$2,500"
+    },
+    {
+      "date": "2016-11-07",
+      "time": "11:04",
+      "product": "ES",
+      "salesManager": "Jane Smith",
+      "paymentType": "recurring",
+      "paymentSystem": "stripe",
+      "amount": "$1,000"
+    },
+    {
+      "date": "2016-11-20",
+      "time": "07:47",
+      "product": "GS",
+      "salesManager": "Lisa Davis",
+      "paymentType": "final",
+      "paymentSystem": "square",
+      "amount": "$1,000"
+    },
+    {
+      "date": "2016-11-16",
+      "time": "15:15",
+      "product": "ES",
+      "salesManager": "Mike Brown",
+      "paymentType": "final",
+      "paymentSystem": "square",
+      "amount": "$1,500"
+    }
+  ],
+  "paymentsLastMonth": [
+    {
+      "date": "2016-11-01",
+      "time": "12:00",
+      "product": "TS",
+      "salesManager": "Jane Smith",
+      "paymentType": "initial",
+      "paymentSystem": "helcim",
+      "amount": "$1,000"
+    }
+  ]
+}
