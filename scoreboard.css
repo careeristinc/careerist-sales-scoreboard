@@ -70,7 +70,7 @@
 .crstScore-window__content {
   flex-grow: 1;
   overflow: hidden;
-  overflow-y: auto;
+  overflow-y: scroll;
   width: 100%;
   -webkit-overflow-scrolling: touch;
 }
@@ -250,6 +250,7 @@
   align-items: center;
   gap: 16px;
   min-height: 30px;
+  margin-right: 8px;
   padding: 0 16px;
   font-weight: 600;
   font-size: 11px;
